@@ -1,22 +1,67 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-file
-*.flf
-#Test results file
-TestResults.xml
+.gitignore
+annot
+archive_inst_seg
+dataset
+detectron2_nbl
+eval_class
+imagery
+osm
+osm
+visu_cache
+visu_cache
+visu_cache
+archive_inst_seg_old_bl
+data_prep/annotations_coco_towers_unique_missing_png.csv
+data_prep/0_tiling_imagery.ipynb
+data_prep/1_convert_tif2png_and_dataset-split.ipynb
+data_prep/2_create_jsons_COCO.ipynb
+data_prep/3_coco_to_classification_label_csv.ipynb
+data_prep/annot_split_issue_check.ipynb
+data_prep/find_missing_png_towers.ipynb
+data_prep/missing_png_tif2png_subs.ipynb
+archive
+landuse/gis
+landuse/landuse_majority_class
+landuse/grouped_majority_class_subs.json
+landuse/grouped_majority_class_towers.json
+landuse/land_use_classes_subs.png
+landuse/land_use_classes_towers.png
+landuse/land_use_counts_subs.csv
+landuse/land_use_counts_towers.csv
+landuse/landuse_majority_class_simplified_subs.csv
+landuse/landuse_majority_class_simplified_towers.csv
+landuse/pred_analysis_subs_merged.csv
+landuse/pred_analysis_towers_merged.csv
+.gitignore
+landuse/landuse_majority_class_simplified_subs.json
+landuse/landuse_majority_class_simplified_towers.json
+train/resume_training.py
+train/test_dino.py
+train/train_dino_classification.ipynb
+train/train_dino.py
+train/train_dino02.py
+train/train_dino03.py
+train/train_dino04.py
+train/train_vit_class.py
+train/visu_transforms.ipynb
+visu/category_id_counts_subs.png
+visu/category_id_counts_towers.png
+visu/category_id_counts_train_subs_unique.png
+visu/category_id_counts_train_towers_unique.png
+visu/category_id_counts_train_towers.png
+visu/iou_box_grouped_towers_subs.png
+visu/iou_violins_grouped_subs.png
+visu/iou_violins_grouped_towers_subs.png
+visu/iou_violins_grouped.png
+visu/iou_violins_groupedtowers.png
+visu/label_counts_by_country_subs.csv
+visu/label_counts_by_country_towers.csv
+visu/NSO_WV2_imagery_dataset_overview_by_country.png
+visu/pred_analysis_subs_fscore_bars.png
+visu/pred_analysis_towers_fscore_bars.png
+visu/pred_analysis_towers_subs_fscore_bars.png
+visu/split_counts_subs_unique.png
+visu/split_counts_subs.png
+visu/split_counts_towers_unique.png
+visu/split_counts_towers.png
+visu/split_counts_unique_towers.png
